@@ -1,0 +1,12 @@
+name: playground
+description: A minimal AWS TypeScript Pulumi program
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  aws:defaultTags: true
+  aws:region: us-west-1
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
